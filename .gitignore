@@ -1,0 +1,16 @@
+# Python and Virtual Environments
+__pycache__/
+venv/
+env/
+.env
+
+# Large Model Weights and Checkpoints
+results/
+*.safetensors
+*.bin
+pytorch_model.bin
+
+# Dataset CSV Files
+samsum-train.csv
+samsum-validation.csv
+samsum-test.csv
